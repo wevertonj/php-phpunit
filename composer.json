@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Alura\\PHPUnit\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "ext-pdo": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
